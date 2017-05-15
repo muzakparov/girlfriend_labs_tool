@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/styles/dynamic.php?t=post" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script>
+	
+	
+</head>
+<body>
+	<div id="header">
+	 <a id='anchor_0L80n5aaAJ' href='http://www.self.co.nf/form.html' class="btn btn-warning">Support</a>
+	 <p style="font-size:16px" align="center">Alfam Input Tool v2.0 Beta</p>
+	</div>
+	<div  class="container">
+		<table id="loader" class="table table-striped table-bordered">
+			<tr>
+				<td>Filename to Save As:</td>
+				<td><input id="inputFileNameToSaveAs" value="alfam"></input></td>
+				<td><button onClick="saveTextAsFile()">Save Text to File</button></td>
+			</tr>
+			<tr>
+				<td>Select a File to Load:</td>
+				<td><input type="file" id="fileToLoad"></td>
+				<td><button onClick="loadFileAsText()">Load Selected File</button></td>
+			</tr>
+		</table>
+		<div class="row">
+			<div class="text-center">
+				<button id="create" onClick="uyduruk()" class="btn btn-success btn-lg">Create</button>
+			</div>
+		</div>
+		
+		<div class="text-center">
+			<h3 class="text-center bg-primary"><strong>TYPE OF LATTICE</strong></h3>
+			    
+			<div>
+			    <input id="cub" type="radio" name="lattice" value="'cub'" >Cubic
+			    <input id="other" type="radio" name="lattice" value="'other'">Other
+			</div>
+			
+			<h3 class="text-center bg-primary" style="color:white"><strong>DISTANCE OF SEPERATION:</strong></h3>
+			<div class="form-group">
+				<label class="text-left">From</label>
+				<input  id="from"><span id="frome"></span><br />
+			</div>
+			
+			<div class="form-group">
+				<label class="text-left">To</label>
+				<input  id="to"><span id="toe"></span><br />
+			</div>
+			
+			
+			<div class="form-group">
+				<label class="text-left">Number of Molecules:</label>
+				<input  id="nom"><span id="nome"></span><br />
+			</div>
+			
+			
+			<div class="form-group">
+				<label class="text-left">Number of Monomer Types:</label>
+				<input  id="notm"><span id="notme"></span><br />
+			</div>
+			
+			<h3 class="text-center bg-primary"><strong>NUMBER OF CHAINS:</strong></h3>
+			
+			<div class="form-group">
+				<label class="text-left">Grafted</label>
+				<input  id="grafted"><span id="graftede"></span><br />
+			</div>
+			
+			
+			<div class="form-group">
+				<label class="text-left">Free</label>
+				<input  id="free"><span id="freee"></span><br />
+			</div>
+			
+			
+			<div class="form-group">
+				<label class="text-left">Ions</label>
+				<input  id="ions"><span id="ionse"></span><br />
+			</div>
+			
+			
+			<div class="form-group">
+				<div class="text-center">
+					<button id="create" onClick="callTable()" class="btn btn-success btn-lg">Create</button>
+				</div>
+			</div>
+			
+			<div id="container">
+			
+			    <table id="content">
+			        <tr>
+			            <div id="bulkConc"></div>
+			        </tr>
+			        <tr>
+			            <div id="xTable"></div>
+			        </tr>
+			        <tr>
+			            <div id="xSurface"></div>
+			        </tr>
+			        <tr>
+			            <div id="charges"></div>
+			        </tr>
+			        
+			        <tr>
+			            <td class="ggg"><div id="graftedTable"></div></td>
+			            <td class="fff"><div id="freeTable"></div></td>
+			            <td class="iii"><div id="ionTable"></div></td>
+			        </tr>
+			        
+			        <tr>
+			            <td class="ggg"><div id="graftedMap"></div></td>
+			            <td class="fff"><div id="freeMap"></div></td>
+			        </tr>
+			    </table>
+			    
+				<div id="footer">
+				  <p align="center">Developed by <a id="contact" title="zead29@outlook.com" style="color:white" href="#" onClick="ContactMe();return false;">Adem Zengin</a></p>
+				</div>
+			
+			</div>
+		</div>
+		
+	</div>
+	
+	
+</body>
+
+</html>

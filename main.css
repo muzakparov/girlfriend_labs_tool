@@ -1,0 +1,129 @@
+
+label{
+    width: 120px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+body,input,table,td,tr,th,div{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;}
+
+input{
+width: 50px;
+}
+
+#fileToLoad{width: 200px;}
+
+#inputFileNameToSaveAs{width: 200px;}
+
+
+.boxes{
+width: 1em;
+}
+
+.ggg{background-color:#E6F5EB;}
+.fff{background-color:#EBD6D6;}
+.iii{background-color:#EBF0F5;}
+
+#submitbutton{
+margin-left: 120px;
+margin-top: 5px;
+width: 90px;
+}
+
+br{
+clear: left;
+}
+
+table,th,td
+{
+border:no border;
+border-collapse:collapse;
+table-layout:fixed;
+}
+th,td
+{
+padding:5px;
+width:auto;
+}
+
+span{margin-left:10px;
+color:red;}
+
+#gTable{ display: block;float: left;}
+#fTable{ display: block;float: left;}
+
+#graftedMap table{ display: block;float: left;margin-right: 5px;}
+#freeMap table{ display: block;float: left;margin-right: 5px;}
+
+#iTableButton,#QTableButton,#xTableButton,#xSurfButton,#xChargeButton{visibility:hidden;}
+
+#header {
+	
+	height:75px;
+	
+	background-color:black;
+	position: absolute;
+    right: 0;
+    top: 0;
+    left: 0; /* seeing as content is centered, make margin-left start at center of page */
+	
+	}
+	
+
+#container{
+	
+	position: absolute;
+	left:0;
+	right:0;
+}
+	
+#header p{
+	color:white;
+	margin-top:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+#header a{
+	color:white;
+	margin-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	position:fixed;
+	right:15;
+	
+	}
+	
+#loader {margin-top:80px;}
+
+
+
+#footer {
+	position:absolute;
+	
+	
+	left:0;
+	right:0;
+	margin-top:30px;
+	
+	height: 40px;
+	
+	background:black;} 
+	
+	#footer p{
+	color:white;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+	
+#QTable input{width:150px;}
+
+#content td{
+	vertical-align:top;
+	text-align:center;
+}
+
+#create{
+    margin:10px;
+}
