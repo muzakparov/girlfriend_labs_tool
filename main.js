@@ -12,7 +12,7 @@ var xNumbers;//totalNotm
 
 
 function ContactMe(){
-	alert("zead29@outlook.com");}
+	alert("muzakparov@gmail.com");}
 
 function removeTable(id)
     {
