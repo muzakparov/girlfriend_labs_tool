@@ -1,4 +1,3 @@
-
 label{
     width: 120px;
     font-weight: bold;
@@ -11,7 +10,7 @@ body,input,table,td,tr,th,div{
 	font-size:12px;}
 
 input{
-width: 50px;
+width: 45px;
 }
 
 #fileToLoad{width: 200px;}
@@ -28,9 +27,9 @@ width: 1em;
 .iii{background-color:#EBF0F5;}
 
 #submitbutton{
-margin-left: 120px;
-margin-top: 5px;
-width: 90px;
+	margin-left: 120px;
+	margin-top: 5px;
+	width: 90px;
 }
 
 br{
@@ -39,9 +38,9 @@ clear: left;
 
 table,th,td
 {
-border:no border;
-border-collapse:collapse;
-table-layout:fixed;
+	border:no border;
+	border-collapse:collapse;
+	table-layout:fixed;
 }
 th,td
 {
